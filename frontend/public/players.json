@@ -1,0 +1,570 @@
+[
+    {
+        "name": "Jamaar Chase",
+        "position": "WR",
+        "team": "CIN",
+        "points_2024": "339.5",
+        "points_2025": "290.9",
+        "rank": "1"
+    },
+    {
+        "name": "Saquon Barkley",
+        "position": "RB",
+        "team": "PHI",
+        "points_2024": "338.8",
+        "points_2025": "308",
+        "rank": "2"
+    },
+    {
+        "name": "Bijan Robinson",
+        "position": "RB",
+        "team": "ATL",
+        "points_2024": "311.2",
+        "points_2025": "302.1",
+        "rank": "3"
+    },
+    {
+        "name": "Jahmyr Gibbs",
+        "position": "RB",
+        "team": "DET",
+        "points_2024": "336.9",
+        "points_2025": "298.4",
+        "rank": "4"
+    },
+    {
+        "name": "Justin Jefferson",
+        "position": "WR",
+        "team": "MIN",
+        "points_2024": "266",
+        "points_2025": "278",
+        "rank": "5"
+    },
+    {
+        "name": "Puka Nacua",
+        "position": "WR",
+        "team": "LAR",
+        "points_2024": "167.1",
+        "points_2025": "271.3",
+        "rank": "6"
+    },
+    {
+        "name": "CeeDee Lamb",
+        "position": "WR",
+        "team": "DAL",
+        "points_2024": "212.9",
+        "points_2025": "256.5",
+        "rank": "7"
+    },
+    {
+        "name": "Nico Collins",
+        "position": "WR ",
+        "team": "HOU",
+        "points_2024": "176.6",
+        "points_2025": "250.8",
+        "rank": "8"
+    },
+    {
+        "name": "Brian Thomas Jr.",
+        "position": "WR",
+        "team": "JAX",
+        "points_2024": "240.5",
+        "points_2025": "250.6",
+        "rank": "9"
+    },
+    {
+        "name": "Amon-Ra St. Brown",
+        "position": "WR",
+        "team": "DET",
+        "points_2024": "258.7",
+        "points_2025": "242.3",
+        "rank": "10"
+    },
+    {
+        "name": "Malik Nabers",
+        "position": "WR",
+        "team": "NYG",
+        "points_2024": "219.1",
+        "points_2025": "233.5",
+        "rank": "11"
+    },
+    {
+        "name": "Devon Achane",
+        "position": "RB",
+        "team": "MIA",
+        "points_2024": "260.9",
+        "points_2025": "284.6",
+        "rank": "12"
+    },
+    {
+        "name": "Derrick Henry",
+        "position": "RB",
+        "team": "BAL",
+        "points_2024": "326.9",
+        "points_2025": "298.9",
+        "rank": "13"
+    },
+    {
+        "name": "Christian McCaffrey",
+        "position": "RB",
+        "team": "SF",
+        "points_2024": "40.3",
+        "points_2025": "280.1",
+        "rank": "14"
+    },
+    {
+        "name": "Ashton Jeanty",
+        "position": "RB",
+        "team": "R",
+        "points_2024": "0",
+        "points_2025": "272.7",
+        "rank": "15"
+    },
+    {
+        "name": "Brock Bowers",
+        "position": "TE",
+        "team": "LV",
+        "points_2024": "206.7",
+        "points_2025": "210.2",
+        "rank": "16"
+    },
+    {
+        "name": "Drake London",
+        "position": "WR",
+        "team": "ATL",
+        "points_2024": "230.8",
+        "points_2025": "229.9",
+        "rank": "17"
+    },
+    {
+        "name": "Ladd McConkey",
+        "position": "WR",
+        "team": "LAC",
+        "points_2024": "199.9",
+        "points_2025": "224.9",
+        "rank": "18"
+    },
+    {
+        "name": "A.J. Brown",
+        "position": "WR",
+        "team": "PHI",
+        "points_2024": "183.4",
+        "points_2025": "212.2",
+        "rank": "19"
+    },
+    {
+        "name": "Jonathan Taylor",
+        "position": "RB",
+        "team": "IND",
+        "points_2024": "235.7",
+        "points_2025": "250.5",
+        "rank": "20"
+    },
+    {
+        "name": "Josh Jacobs",
+        "position": "RB",
+        "team": "GB",
+        "points_2024": "275.1",
+        "points_2025": "248.3",
+        "rank": "21"
+    },
+    {
+        "name": "Bucky Irving",
+        "position": "RB",
+        "team": "TB",
+        "points_2024": "220.9",
+        "points_2025": "240.6",
+        "rank": "22"
+    },
+    {
+        "name": "Chase Brown",
+        "position": "RB",
+        "team": "CIN",
+        "points_2024": "228",
+        "points_2025": "235",
+        "rank": "23"
+    },
+    {
+        "name": "Tee Higgins",
+        "position": "WR",
+        "team": "CIN",
+        "points_2024": "185.6",
+        "points_2025": "208.9",
+        "rank": "24"
+    },
+    {
+        "name": "Breece Hall",
+        "position": "RB",
+        "team": "NYJ",
+        "points_2024": "212.4",
+        "points_2025": "224.9",
+        "rank": "25"
+    },
+    {
+        "name": "Terry McLaurin",
+        "position": "WR",
+        "team": "WAS",
+        "points_2024": "226.8",
+        "points_2025": "222.4",
+        "rank": "26"
+    },
+    {
+        "name": "Tyreek Hill",
+        "position": "WR",
+        "team": "MIA",
+        "points_2024": "177.7",
+        "points_2025": "201",
+        "rank": "27"
+    },
+    {
+        "name": "Lamar Jackson",
+        "position": "QB",
+        "team": "BAL",
+        "points_2024": "434.4",
+        "points_2025": "410",
+        "rank": "28"
+    },
+    {
+        "name": "Josh Allen",
+        "position": "QB",
+        "team": "BUF",
+        "points_2024": "385",
+        "points_2025": "388",
+        "rank": "29"
+    },
+    {
+        "name": "Mike Evans",
+        "position": "WR",
+        "team": "TB",
+        "points_2024": "203.4",
+        "points_2025": "209.6",
+        "rank": "30"
+    },
+    {
+        "name": "Jaxon Smith Njibga",
+        "position": "WR",
+        "team": "SEA",
+        "points_2024": "203",
+        "points_2025": "200.1",
+        "rank": "31"
+    },
+    {
+        "name": "Garret Wilson",
+        "position": "WR",
+        "team": "NYJ",
+        "points_2024": "201.4",
+        "points_2025": "198.5",
+        "rank": "32"
+    },
+    {
+        "name": "Trey McBride",
+        "position": "TE",
+        "team": "ARI",
+        "points_2024": "194.3",
+        "points_2025": "193.9",
+        "rank": "33"
+    },
+    {
+        "name": "James Cook",
+        "position": "RB",
+        "team": "BUF",
+        "points_2024": "250.7",
+        "points_2025": "212.4",
+        "rank": "33"
+    },
+    {
+        "name": "Joe Mixon",
+        "position": "RB",
+        "team": "HOU",
+        "points_2024": "222.5",
+        "points_2025": "210.6",
+        "rank": "34"
+    },
+    {
+        "name": "Kyren Williams",
+        "position": "RB",
+        "team": "LAR",
+        "points_2024": "255.1",
+        "points_2025": "215.9",
+        "rank": "35"
+    },
+    {
+        "name": "Chuba Hubbard",
+        "position": "RB",
+        "team": "CAR",
+        "points_2024": "220.1",
+        "points_2025": "210.2",
+        "rank": "36"
+    },
+    {
+        "name": "DJ Moore",
+        "position": "WR",
+        "team": "CHI",
+        "points_2024": "189.1",
+        "points_2025": "190.5",
+        "rank": "37"
+    },
+    {
+        "name": "Marvin Harrison Jr.",
+        "position": "WR",
+        "team": "ARI",
+        "points_2024": "165.5",
+        "points_2025": "178.5",
+        "rank": "38"
+    },
+    {
+        "name": "Jayden Daniels",
+        "position": "QB",
+        "team": "WAS",
+        "points_2024": "364.8",
+        "points_2025": "371.2",
+        "rank": "39"
+    },
+    {
+        "name": "Xavier Worthy",
+        "position": "WR",
+        "team": "KC",
+        "points_2024": "157.7",
+        "points_2025": "170.8",
+        "rank": "40"
+    },
+    {
+        "name": "Devonta Smith",
+        "position": "WR ",
+        "team": "KC",
+        "points_2024": "165.4",
+        "points_2025": "174.9",
+        "rank": "41"
+    },
+    {
+        "name": "George Kittle",
+        "position": "TE",
+        "team": "SF",
+        "points_2024": "197.6",
+        "points_2025": "189.9",
+        "rank": "42"
+    },
+    {
+        "name": "Zay Flowers",
+        "position": "WR",
+        "team": "BAL",
+        "points_2024": "172.5",
+        "points_2025": "177.3",
+        "rank": "43"
+    },
+    {
+        "name": "Jalen Hurts",
+        "position": "QB",
+        "team": "PHI",
+        "points_2024": "320.1",
+        "points_2025": "355.4",
+        "rank": "44"
+    },
+    {
+        "name": "Jameson Williams",
+        "position": "WR",
+        "team": "DET",
+        "points_2024": "183.2",
+        "points_2025": "174.3",
+        "rank": "45"
+    },
+    {
+        "name": "Rashee Rice",
+        "position": "WR",
+        "team": "KC",
+        "points_2024": "52.9",
+        "points_2025": "145.5",
+        "rank": "46"
+    },
+    {
+        "name": "Joe Burrow",
+        "position": "QB",
+        "team": "CIN",
+        "points_2024": "381.8",
+        "points_2025": "355.1",
+        "rank": "47"
+    },
+    {
+        "name": "Rome Odunze",
+        "position": "WR",
+        "team": "CHI",
+        "points_2024": "117.9",
+        "points_2025": "167.8",
+        "rank": "48"
+    },
+    {
+        "name": "Tetairoa McMillan",
+        "position": "WR",
+        "team": "R",
+        "points_2024": "0",
+        "points_2025": "162.9",
+        "rank": "49"
+    },
+    {
+        "name": "DK Metcalf",
+        "position": "WR",
+        "team": "SEA",
+        "points_2024": "158.2",
+        "points_2025": "166.3",
+        "rank": "50"
+    },
+    {
+        "name": "Chris Olave",
+        "position": "WR",
+        "team": "NO",
+        "points_2024": "60.7",
+        "points_2025": "164.2",
+        "rank": "51"
+    },
+    {
+        "name": "Davante Adams",
+        "position": "WR",
+        "team": "NYJ",
+        "points_2024": "198.8",
+        "points_2025": "165.2",
+        "rank": "52"
+    },
+    {
+        "name": "Jordan Addison",
+        "position": "WR",
+        "team": "MIN",
+        "points_2024": "181",
+        "points_2025": "165.1",
+        "rank": "53"
+    },
+    {
+        "name": "Alvin Kamara",
+        "position": "RB",
+        "team": "NO",
+        "points_2024": "231.3",
+        "points_2025": "198.8",
+        "rank": "54"
+    },
+    {
+        "name": "Jaylen Waddle",
+        "position": "WR",
+        "team": "MIA",
+        "points_2024": "120.6",
+        "points_2025": "163.3",
+        "rank": "55"
+    },
+    {
+        "name": "Courtland Sutton",
+        "position": "WR",
+        "team": "DEN",
+        "points_2024": "199.8",
+        "points_2025": "184.2",
+        "rank": "56"
+    },
+    {
+        "name": "Omarion Hampton",
+        "position": "RB",
+        "team": "R",
+        "points_2024": "0",
+        "points_2025": "188.9",
+        "rank": "57"
+    },
+    {
+        "name": "Kenneth Walker",
+        "position": "RB",
+        "team": "SEA",
+        "points_2024": "158.2",
+        "points_2025": "181.2",
+        "rank": "58"
+    },
+    {
+        "name": "George Pickens",
+        "position": "WR",
+        "team": "PIT",
+        "points_2024": "134.9",
+        "points_2025": "158.2",
+        "rank": "59"
+    },
+    {
+        "name": "Jerry Jeudy",
+        "position": "WR",
+        "team": "CLE",
+        "points_2024": "195.9",
+        "points_2025": "162.3",
+        "rank": "60"
+    },
+    {
+        "name": "David Montgomery",
+        "position": "RB",
+        "team": "DET",
+        "points_2024": "203.7",
+        "points_2025": "180.1",
+        "rank": "61"
+    },
+    {
+        "name": "Sam Laporta",
+        "position": "TE",
+        "team": "DET",
+        "points_2024": "144.6",
+        "points_2025": "169.8",
+        "rank": "62"
+    },
+    {
+        "name": "Kaleb Johnson",
+        "position": "RB",
+        "team": "R",
+        "points_2024": "0",
+        "points_2025": "177.3",
+        "rank": "63"
+    },
+    {
+        "name": "Chris Godwin",
+        "position": "WR",
+        "team": "TB",
+        "points_2024": "112.8",
+        "points_2025": "160.8",
+        "rank": "64"
+    },
+    {
+        "name": "James Conner",
+        "position": "RB",
+        "team": "ARI",
+        "points_2024": "230.3",
+        "points_2025": "188.9",
+        "rank": "65"
+    },
+    {
+        "name": "Tyrone Tracy",
+        "position": "RB ",
+        "team": "NYG",
+        "points_2024": "163.3",
+        "points_2025": "177.6",
+        "rank": "66"
+    },
+    {
+        "name": "Luther Burden III",
+        "position": "WR",
+        "team": "R",
+        "points_2024": "0",
+        "points_2025": "155.9",
+        "rank": "67"
+    },
+    {
+        "name": "Jayden Reed",
+        "position": "WR",
+        "team": "GB",
+        "points_2024": "169.5",
+        "points_2025": "150.5",
+        "rank": "68"
+    },
+    {
+        "name": "Deebo Samuel",
+        "position": "WR",
+        "team": "SF",
+        "points_2024": "128.1",
+        "points_2025": "160.6",
+        "rank": "69"
+    },
+    {
+        "name": "Calvin Ridley",
+        "position": "WR",
+        "team": "TEN",
+        "points_2024": "167.2",
+        "points_2025": "165.5",
+        "rank": "70"
+    }
+]
