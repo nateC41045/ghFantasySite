@@ -1,33 +1,34 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import Papa from 'papaparse';
+import playersData from './players.json'; // Import static JSON file
 
 function Rankings() {
-    const [players, setPlayers] = useState([]);
+    const [players, setPlayers] = useState([...playersData]);
 
-    useEffect(() => {
-        const fetchPlayers = async () => {
-            try {
+    //useEffect(() => {
+    //    const fetchPlayers = async () => {
+    //        try {
                 // Fetch players from API
-                const apiResponse = await axios.get('http://127.0.0.1:5000/players');
-                const apiPlayers = apiResponse.data;
+    //            const apiResponse = await axios.get('http://127.0.0.1:5000/players');
+     //           const apiPlayers = apiResponse.data;
 
                 // Fetch players from CSV
-                const csvResponse = await axios.get('/players.csv');
-                const parsedCSV = Papa.parse(csvResponse.data, { header: true, skipEmptyLines: true });
+      //          const csvResponse = await axios.get('/players.csv');
+     //           const parsedCSV = Papa.parse(csvResponse.data, { header: true, skipEmptyLines: true });
 
                 // Merge API and CSV players
-                const mergedPlayers = [...apiPlayers, ...parsedCSV.data];
+       //         const mergedPlayers = [...apiPlayers, ...parsedCSV.data];
                 // Sort players based on 2024 points in descending order
-                const sortedPlayers = mergedPlayers.sort((a, b) => b.points_2024 - a.points_2024);
-                setPlayers(sortedPlayers);
-            } catch (error) {
-                console.error('Error fetching players:', error);
-            }
-        };
+     //           const sortedPlayers = mergedPlayers.sort((a, b) => b.points_2024 - a.points_2024);
+     //           setPlayers(sortedPlayers);
+       //     } catch (error) {
+     //           console.error('Error fetching players:', error);
+     //       }
+    //    };
 
-        fetchPlayers();
-    }, []);
+    //    fetchPlayers();
+    //}, []);
 
     // Function to move player up
     const movePlayerUp = (index) => {

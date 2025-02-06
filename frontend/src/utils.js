@@ -36,15 +36,34 @@ const playerImages = {
     'Brandon Aiyuk': '',
     'Cam Akers': '',
     'Jordan Akins': '',
-    'Josh Allen': 'https://static.www.nfl.com/image/upload/t_player_profile_landscape/f_auto/league/lq4ezafbszwwt2qsvhqv',
-    'James Cook': 'https://static.www.nfl.com/image/upload/t_player_profile_landscape/f_auto/league/bzdvrarxum9zate4te4b',
+    
     'Nico Collins': 'https://static.www.nfl.com/image/upload/t_player_profile_landscape/f_auto/league/q7c9aq8rpremfygslmya',
     'Brian Thomas Jr.': 'https://static.www.nfl.com/image/upload/t_player_profile_landscape/f_auto/league/gsz15iz0ppibhslzzgch',
     'A.J. Brown': 'https://static.www.nfl.com/image/private/t_player_profile_landscape/f_auto/league/a014sgzctarbvhwb35lw',
     'Devonta Smith': 'https://static.www.nfl.com/image/upload/t_player_profile_landscape/f_auto/league/bmdflwy52nsk7zpnfhwb',
     'Jalen Hurts': 'https://static.www.nfl.com/image/upload/t_player_profile_landscape/f_auto/league/k2p5yb4qmqwoo3qcapgt',
     'Malik Nabers': 'https://static.www.nfl.com/image/upload/t_player_profile_landscape/f_auto/league/w3edoyyuomqlovvp9ixc',
-    'Tyrone Tracy Jr.': 'https://static.www.nfl.com/image/upload/t_player_profile_landscape/f_auto/league/hc2uk0xrbc6qizrerwxd'
+    'Tyrone Tracy Jr.': 'https://static.www.nfl.com/image/upload/t_player_profile_landscape/f_auto/league/hc2uk0xrbc6qizrerwxd',
+    
+    'Terry McLaurin': '',
+    'Dyami Brown': '',
+    'Jayden Daniels': '',
+    'Brian Robinson Jr.': '',
+    'Austin Ekeler': '',
+    'Zach Ertz': '',
+
+    'Devon Achane': '',
+    'Tyreek Hill': '',
+    'Jaylen Waddle': '',
+    'Tua Tagovailoa': '',
+
+    'Josh Allen': 'https://static.www.nfl.com/image/upload/t_player_profile_landscape/f_auto/league/lq4ezafbszwwt2qsvhqv',
+    'James Cook': 'https://static.www.nfl.com/image/upload/t_player_profile_landscape/f_auto/league/bzdvrarxum9zate4te4b',
+    'Khalil Shakir': '',
+    'Dalton Kincaid': ' ',
+    'Keon Coleman': '',
+    
+
 
 };
 

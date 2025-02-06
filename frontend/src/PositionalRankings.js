@@ -1,18 +1,20 @@
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
+//import axios from 'axios';
 import './App.css';  // Use existing styles
-import Papa from 'papaparse';
+//import Papa from 'papaparse';
 import { getPlayerImage } from "./utils";
+import playersData from './players.json'; // Load static player data
 
 function PositionalRankings() {
     const [players, setPlayers] = useState([]);
     const [position, setPosition] = useState('QB');
 
     useEffect(() => {
-        fetch("/players.json")  // Load the JSON file from the public folder
-            .then(response => response.json())
-            .then(data => setPlayers(data))
-            .catch(error => console.error("Error loading players:", error));
+        //fetch("/players.json")  // Load the JSON file from the public folder
+          //  .then(response => response.json())
+            //.then(data => setPlayers(data))
+            //.catch(error => console.error("Error loading players:", error));
+            setPlayers(playersData);
     }, []);
 
     const filteredPlayers = players.filter(player => player.position === position);

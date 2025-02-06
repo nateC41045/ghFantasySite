@@ -13,14 +13,14 @@ import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 
 
-import axios from 'axios';
-import Papa from 'papaparse';
+//import axios from 'axios';
+//import Papa from 'papaparse';
 import Rankings from './rankings';
 import './App.css';
-import { DndContext } from '@dnd-kit/core';
+//import { DndContext } from '@dnd-kit/core';
 import playersData from './players.json'; // Load static player data from a JSON file
 
-function Home() {
+const Home = () => {
     const [drafts, setDrafts] = useState([]);
     const [players, setPlayers] = useState([]);
     const [draftType, setDraftType] = useState('salary');
@@ -63,12 +63,6 @@ function Home() {
     }
 
     const teamData = {
-
-
-        
-        
-        
-
         'BAL': { color: '#241773', name: 'Ravens' },
         'ATL': { color: '#A71930', name: 'Falcons' },
         'ARI': { color: '#97233F', name: 'Cardinals' },
@@ -196,22 +190,24 @@ function Home() {
     };
 
 
+
+   
+
     useEffect(() => {
-        setPlayers(playersData); // Use preloaded JSON instead of API calls
+       setPlayers(playersData); // Use preloaded JSON instead of API calls
     }, []);
 
     // Create a new draft
-    const createDraft = () => {
-        axios.post('http://127.0.0.1:5000/drafts', {
-            type: draftType,
-            participants: participants
-        })
-            .then(response => {
-                alert(`Draft created with ID: ${response.data.draft_id}`);
-                setDrafts([...drafts, response.data]);
-            })
-            .catch(error => console.error(error));
-    };
+    //const createDraft = () => {
+     //   axios.post('http://127.0.0.1:5000/drafts', {
+     //       type: draftType,
+     //       participants: participants
+     //   })
+     //       .then(response => {
+    ///           setDrafts([...drafts, response.data]);
+     //       })
+     //       .catch(error => console.error(error));
+   // };
 
     // Function to get team logo URL
     const getTeamLogo = (teamAbbreviation) => {
@@ -233,7 +229,7 @@ function Home() {
             
 
 
-            {/*  Draft Creation Section */}
+            {/* Draft Creation Section */}
             <div className="draft-creation">
                 <h2>Create Draft</h2>
                 <select value={draftType} onChange={(e) => setDraftType(e.target.value)}>
@@ -247,9 +243,8 @@ function Home() {
                     min="2"
                     max="12"
                 />
-                <button onClick={createDraft}>Create Draft</button>
+                <button onClick={() => alert('Draft creation is handled client-side.')}>Create Draft</button>
             </div>
-
 
             {/*  Players Table */}
             <div className="players-list">
@@ -266,7 +261,8 @@ function Home() {
                         </tr>
                     </thead>
                     <tbody>
-                        {players.map((player, index) => (
+                        {
+                            players.map((player, index) => (
                             <tr key={player.id || index}>
                                 <td>{index + 1}</td>
                                 <td className="player-cell">
