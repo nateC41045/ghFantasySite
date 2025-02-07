@@ -11,7 +11,7 @@ import { getPlayerImage } from "./utils";
 
 import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
-
+import MockDraft from './MockDraft';  // Add the new MockDraft page component
 
 //import axios from 'axios';
 //import Papa from 'papaparse';
@@ -223,27 +223,52 @@ const Home = () => {
         return teamColors[teamAbbreviation] || '#333'; // Default to dark gray if not found
     };
 
+
+
+
+
+
+
+    const handleCreateDraft = () => {
+        localStorage.setItem('draftType', draftType);
+        localStorage.setItem('participants', participants);
+        window.location.href = '/ghFantasySite/mock-draft.html'; // Direct static navigation
+    };
+
+    const handleDraftTypeChange = (e) => setDraftType(e.target.value);
+    const handleParticipantsChange = (e) => setParticipants(e.target.value);
+
+    const MockDraft = ({ match }) => {
+        const { draftType, participants } = match.params;
+
+        return (
+            <div className="mock-draft-container">
+                <h2>Starting {draftType} Draft with {participants} participants</h2>
+                {/* Add your mock draft logic here */}
+            </div>
+        );
+    };
+
+
     return (
         <div className="home-container">
-            {/*  Navigation Menu */}
-            
-
-
             {/* Draft Creation Section */}
             <div className="draft-creation">
                 <h2>Create Draft</h2>
-                <select value={draftType} onChange={(e) => setDraftType(e.target.value)}>
+                <select value={draftType} onChange={handleDraftTypeChange}>
                     <option value="salary">Salary Cap</option>
                     <option value="best_ball">Best Ball</option>
                 </select>
                 <input
                     type="number"
                     value={participants}
-                    onChange={(e) => setParticipants(e.target.value)}
+                    onChange={handleParticipantsChange}
                     min="2"
                     max="12"
                 />
-                <button onClick={() => alert('Draft creation is handled client-side.')}>Create Draft</button>
+                <Link to={`/mock-draft/${draftType}/${participants}`}>
+                    <button>Create Draft</button>
+                </Link>
             </div>
 
             {/*  Players Table */}
@@ -317,6 +342,7 @@ function App() {
                 
                 <Routes>
                     <Route path="/" element={<Home />} />
+                    <Route path="/mock-draft/:draftType/:participants" element={<MockDraft />} />
                     <Route path="/about" element={<About />} />
                     <Route path="/services" element={<Services />} />
                     <Route path="/contact" element={<Contact />} />

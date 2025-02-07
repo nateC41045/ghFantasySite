@@ -1,0 +1,42 @@
+.mock-draft-container {
+    text-align: center;
+    margin: 20px;
+}
+
+.draft-board {
+    margin-bottom: 20px;
+}
+
+.draft-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.draft-pick {
+    border: 1px solid #333;
+    padding: 10px;
+    min-width: 80px;
+    text-align: center;
+    background-color: #eee;
+}
+
+.player-pool {
+    margin-top: 20px;
+}
+
+    .player-pool ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .player-pool li {
+        cursor: pointer;
+        padding: 5px;
+        border-bottom: 1px solid #ccc;
+    }
+
+        .player-pool li:hover {
+            background-color: #f0f0f0;
+        }

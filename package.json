@@ -16,6 +16,7 @@
         "web-vitals": "^4.2.4"
     },
     "homepage": "https://nateC41045.github.io/ghFantasySite",
+
     "scripts": {
         "predeploy": "npm run build",
         "deploy": "gh-pages -d build",
