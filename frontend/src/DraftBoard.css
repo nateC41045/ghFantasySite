@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.draft-board {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 90%;
+}
+
+.teams-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.active-team {
+    border: 3px solid #ffcc00;
+    background: #fffbe6;
+}
+
+.team-card {
+    background: #f8f9fa;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    padding: 15px;
+    width: 280px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+    .team-card h4 {
+        margin-bottom: 10px;
+        color: #007bff;
+    }
+
+    .team-card p {
+        margin: 5px 0;
+        font-size: 14px;
+    }
+
+
+.player-list {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.player-card {
+    background: white;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.no-players {
+    font-style: italic;
+    color: #888;
+}

@@ -16,16 +16,20 @@ import MockDraft from './MockDraft';  // Add the new MockDraft page component
 //import axios from 'axios';
 //import Papa from 'papaparse';
 import Rankings from './rankings';
+import './index.css'; 
 import './App.css';
 //import { DndContext } from '@dnd-kit/core';
 import playersData from './players.json'; // Load static player data from a JSON file
+import YouTube from "react-youtube";
+
 
 const Home = () => {
     const [drafts, setDrafts] = useState([]);
     const [players, setPlayers] = useState([]);
     const [draftType, setDraftType] = useState('salary');
     const [participants, setParticipants] = useState(8);
-
+    const [teamPickPosition, setTeamPickPosition] = useState(1); // Default to pick position 1
+    const [auctionData, setAuctionData] = useState({ budget: 200, bids: [] }); // Auction budget and bid history
 
     const teamLogos = {
         'ARI': 'https://upload.wikimedia.org/wikipedia/commons/0/03/Los_Angeles_Lakers_logo.svg', // Example for Lakers
@@ -250,11 +254,17 @@ const Home = () => {
     };
 
 
+
+
     return (
-        <div className="home-container">
+
+
+        <div className="home-container min-h-screen flex flex-col bg-gray-500 text-blue p-0">
             {/* Draft Creation Section */}
+
+
             <div className="draft-creation">
-                <h2>Create Draft</h2>
+                <h2>Create Mock Draft</h2>
                 <select value={draftType} onChange={handleDraftTypeChange}>
                     <option value="salary">Salary Cap</option>
                     <option value="best_ball">Best Ball</option>
@@ -267,13 +277,16 @@ const Home = () => {
                     max="12"
                 />
                 <Link to={`/mock-draft/${draftType}/${participants}`}>
-                    <button>Create Draft</button>
+                    <button className="px-6 py-2 bg-green-500 text-gray-900 font-bold text-lg rounded-lg 
+                   hover:bg-green-400 hover:shadow-lg hover:shadow-green-400 transition">
+                        Create Draft
+                    </button>
                 </Link>
             </div>
 
             {/*  Players Table */}
             <div className="players-list">
-                <h2>Players</h2>
+                <h2>Players Data</h2>
                 <table>
                     <thead>
                         <tr>
@@ -332,12 +345,28 @@ const Home = () => {
         </div>
     );
 }
+document.body.addEventListener('mouseover', e => {
+    let link = e.target.closest('a');
+    if (!link || !link.classList.contains('link')) { return; }
+
+    // 50% chance to highlight blue or red text color
+    const randomColor = Math.random() < 0.5 ? 'blue' : 'red';
+    link.style.color = randomColor; // Change text color
+});
+
+document.body.addEventListener('mouseout', e => {
+    let link = e.target.closest('a');
+    if (!link || !link.classList.contains('link')) { return; }
+
+    // Reset the text color when the hover ends
+    link.style.color = ''; // Reset text color to default
+});
 
 
 function App() {
     return (
         <Router>
-            <div className="App">
+            <div className="min-h-screen flex flex-col bg-gradient-to-b">
                 <Header />
                 
                 <Routes>
@@ -346,6 +375,7 @@ function App() {
                     <Route path="/about" element={<About />} />
                     <Route path="/services" element={<Services />} />
                     <Route path="/contact" element={<Contact />} />
+                    <Route path="/2025-draft" element={<draft2025 />} />
                     <Route path="/rankings" element={<Rankings />} />
                     <Route path="/positional-rankings" element={<PositionalRankings />} />
                 </Routes>

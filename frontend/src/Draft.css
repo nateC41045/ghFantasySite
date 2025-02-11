@@ -40,3 +40,7 @@
         .player-pool li:hover {
             background-color: #f0f0f0;
         }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
