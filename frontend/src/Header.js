@@ -14,12 +14,15 @@ function Header() {
                 <div className="flex items-center space-x-3">
                     <Link to="/">
                         <img
-                            src={`${process.env.PUBLIC_URL}/logo192.png`}
-                            alt="Fantasy Engine Logo"
+                            src={`${process.env.PUBLIC_URL}/logo192.png
+
+
+                            `}
+                            alt="Fantasy Matrix Logo"
                             className="w-36 h-36 rounded-full shadow-md"
                         />
                     </Link>
-                    <h1 className="text-4xl font-extrabold tracking-wide text-green-7">
+                    <h1 className="text-4xl font-extrabold tracking-wide text-black-100">
                         MATRIX FANTASY
                     </h1>
                 </div>
@@ -29,9 +32,9 @@ function Header() {
                     <ul className="flex space-x-6 text-lg font-semibold">
 
                         <li><Link to="/" className="link">Home</Link></li>
-                        <li><Link to="/about" className="link">About</Link></li>
-                        <li><Link to="/services" className="link">Services</Link></li>
                         <li><Link to="/contact" className="link">Contact</Link></li>
+                        <li><Link to="/services" className="link">Services</Link></li>
+                        <li><Link to="/about" className="link">About</Link></li>
                         <li><Link to="/rankings" className="link">Rankings</Link></li>
                         <li><Link to="/positional-rankings" className="link">Positional Rankings</Link></li>
                     </ul>

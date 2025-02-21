@@ -307,7 +307,7 @@ const playerImages = {
     'Damien Martinez': '',
     'LeQuint Allen Jr.': '',
     'Kaden Prather': '',
-    'Brashard Smith': '',
+    'Brashard Smith': 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4596602.png&w=350&h=254',
     'Kalel Mullings': '',
     'Trevor Etienne': '',
     'Mason Taylor': '',
@@ -319,8 +319,8 @@ const playerImages = {
     'Harold Fannin Jr.': '',
     'DJ Giddens': '',
     'RJ Harvey': '',
-    'Bhayshul Tuten': '',
-    'Gunnar Helm': '',
+    'Bhayshul Tuten': 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4882093.png&w=350&h=254',
+    'Gunnar Helm': 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4686728.png&w=350&h=254',
     'Kyle Monangai': '',
     'Jordon James': '',
     'Tory Horton Jr.': '',
@@ -345,5 +345,5 @@ const playerImages = {
 };
 
 export function getPlayerImage(playerName) {
-    return playerImages[playerName] || "https://example.com/images/default-player.png"; // Default fallback image
+    return playerImages[playerName] || "https://media.istockphoto.com/id/1345388323/vector/human-silhouette-isolated-vector-icon.jpg?s=612x612&w=0&k=20&c=a1wg9LYywdqDUG-t9rifrf16XEdWZbWe7ajuYxJTxEI="; // Default fallback image
 }
